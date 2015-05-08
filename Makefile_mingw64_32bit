@@ -1,0 +1,12 @@
+# @brief   mc Makefile for MinGW-w64/TDM64 (build 32bit binary).
+# @author  eel3
+# @date    2015/05/08
+#
+# @note
+# - TDM-GCC 4.8.1 (64bit) + Cygwin 1.7.28 on Windows 7 Ultimate 64bit SP1
+
+CC         := gcc
+CFLAGS      = -finput-charset=cp932 -m32
+LDFLAGS    := -m32
+
+include ./Makefile

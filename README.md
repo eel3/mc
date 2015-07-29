@@ -24,9 +24,10 @@ Set up
   * We recommend you use Bison, not BYACC.
   * On Windows, we recommend you install Bison from Cygwin.
 3. Execute make(1) or NMAKE.
+4. Put mc in a directory registered in PATH.
 
 | toolset                            | Makefile                 |
-|:-----------------------------------|:------------------------:|
+|:-----------------------------------|:-------------------------|
 | Linux                              | Makefile                 |
 | Mac OS X                           | Makefile\_mac            |
 | MinGW/TDM-GCC (with GNU make)      | Makefile\_mingw          |

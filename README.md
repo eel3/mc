@@ -19,10 +19,10 @@ Set up
 ------
 
 1. Install Flex.
-  * On Windows, we recommend you install Flex from Cygwin.
+    * On Windows, we recommend you install Flex from Cygwin.
 2. Install Bison.
-  * We recommend you use Bison, not BYACC.
-  * On Windows, we recommend you install Bison from Cygwin.
+    * We recommend you use Bison, not BYACC.
+    * On Windows, we recommend you install Bison from Cygwin.
 3. Execute make(1) or NMAKE.
 4. Put mc in a directory registered in PATH.
 

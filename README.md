@@ -11,7 +11,7 @@ zlib License.
 Target environments
 -------------------
 
-Windows, Linux, Mac OS X.
+Windows, Linux, macOS.
 
 mc is written in ANSI C99/flex/bison, and so probably works fine on other OS.
 

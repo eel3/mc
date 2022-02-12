@@ -2,7 +2,7 @@
 /**
  * @brief   Mini calculator (Test project for Lex & Yacc).
  * @author  eel3
- * @date    2015/05/08
+ * @date    2022-02-11
  *
  * @par Compilers
  *   - GCC 4.6.3, Debian 4.6.3-14+rpi1 (Raspbian)
@@ -172,6 +172,7 @@ main(int argc, char *argv[])
 	extern int yydebug; /* from lexer.c (generated from lexer.l) */
 	yydebug = 1;
 #endif /* YYDEBUG */
+	extern int yyparse(void);   /* from parser.c (generated from parser.y) */
 
 	progname = my_basename(argv[0]);
 
